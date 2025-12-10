@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Twitter, Heart } from 'lucide-react';
-import { SOCIAL_LINKS } from '../../constants';
+import { SOCIAL_LINKS } from '../constants';
 
 const Footer: React.FC = () => {
   return (

@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
 
             {/* Profile Image */}
             <img
-              src="../assets/file.jpg"
+              src="./../assets/file.jpg"
               alt="Developer Profile"
               className="relative w-full h-full object-cover rounded-[2rem] shadow-2xl border-4 border-white dark:border-gray-800"
             />
