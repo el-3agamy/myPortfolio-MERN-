@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase } from 'lucide-react';
-import { INTERNSHIPS } from '../constants';
+import { INTERNSHIPS } from '../../constants';
 
 const Internships: React.FC = () => {
   return (
