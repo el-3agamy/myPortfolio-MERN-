@@ -1,7 +1,7 @@
 // About.tsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SKILLS } from '../constants';
+import { SKILLS } from '../../constants';
 import { Code, Layout, Server, Database, Settings, Terminal } from 'lucide-react';
 import { SiNextdotjs, SiReact, SiTypescript, SiRedux, SiReactquery, SiTailwindcss, SiMui, SiFormik, SiPyup, SiZod, SiDocker, SiGit, SiMongodb, SiPostgresql } from 'react-icons/si';
 import { TbBrand4Chan } from 'react-icons/tb';

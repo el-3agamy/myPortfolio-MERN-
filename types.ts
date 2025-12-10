@@ -2,7 +2,7 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  image: string;
+  image: any;
   demoUrl: string;
   githubUrl: string;
 }

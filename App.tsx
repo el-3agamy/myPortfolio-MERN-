@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './src/components/Navbar';
+import Hero from './src/components/Hero';
+import About from './src/components/About';
+import Projects from './src/components/Projects';
+import Experience from './src/components/Experience';
+import Contact from './src/components/Contact';
+import Footer from './src/components/Footer';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(true);

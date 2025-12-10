@@ -8,6 +8,8 @@ export const NAV_LINKS = [
   { name: 'Contact', href: '#contact' },
 ];
 
+// import profilePic from "./public/assets/file.jpg"
+
 // constants.ts
 export const SKILLS: Skill[] = [
   { name: 'Next.js', icon: 'next', category: 'frontend' },
@@ -32,12 +34,13 @@ export const SKILLS: Skill[] = [
 ];
 
 
-export const PROJECTS: Project[] = [
+export const PROJECTS = [
   {
     title: 'FreshCart (E-commerce)',
     description: 'Developed e-commerce platform with React, Vite, Tailwind, React Query, Axios, featuring authentication, cart, API integration, and Stripe checkout.',
     tags: ['React', 'Vite', 'Tailwind', 'React Query', 'Stripe'],
-    image: './assets/Screenshot 2025-12-10 014044.png',
+    image: '/assets/Screenshot 2025-12-10 014044.png',
+    // image :{profilePic} ,
     demoUrl: 'https://ecommerce-sand-phi.vercel.app/',
     githubUrl: 'https://github.com/el-3agamy/ecommerce',
   },
@@ -45,7 +48,7 @@ export const PROJECTS: Project[] = [
     title: 'Circle (Social Media App)',
     description: 'Social media app built with Next.js (App Router), TypeScript, Redux Toolkit, Formik, Yup, Axios, Material UI, integrated with real-world REST API.',
     tags: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Material UI', 'Formik', 'Yup'],
-    image: './assets/Screenshot 2025-12-10 014006.png',
+    image: '/assets/Screenshot 2025-12-10 014006.png',
     demoUrl: 'https://x-rust.vercel.app/posts',
     githubUrl: 'https://github.com/el-3agamy/circle',
   },
