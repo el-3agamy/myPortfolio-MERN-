@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut", delay: 0.3 }}
               className="absolute top-8 right-0 bg-white dark:bg-gray-800 p-2 md:p-3 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 flex items-center gap-1 md:gap-2"
             >
-              <span className="text-2xl rounded-2xl p-1 bg-black">N</span>
+              <span className="text-2xl rounded-2xl p-1 bg-gray-400 dark:bg-black">N</span>
               <span className="font-semibold text-gray-800 dark:text-gray-200">Next</span>
             </motion.div>
             <motion.div
