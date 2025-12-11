@@ -53,25 +53,16 @@ const About: React.FC = () => {
           <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
             <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">About me:</h3>
             <p className="text-gray-600 dark:text-white mb-6 leading-relaxed">
-              I'm a <strong>versatile MERN Stack Developer </strong>
-              passionate about building modern, high-performance web applications.
-              With strong expertise in Next.js, React, Node.js, Express, and MongoDB, I create scalable and maintainable
-              solutions that follow modern design principles and best practices.
+              I'm a <strong>MERN Stack Developer </strong>
+              I'm a  focused on building fast, modern, and scalable web applications
+              . I work with Next.js, React, Node.js, Express, and MongoDB, creating clean, maintainable
+              solutions that follow best practices.
+              I leverage TypeScript, Redux Toolkit, React Query, and modern UI tools like Tailwind CSS,
+              Material UI, and SASS to deliver responsive, accessible, and user-friendly interfaces.
 
-              I thrive on crafting clean, efficient, and user-friendly applications,
-              leveraging TypeScript, Redux Toolkit, React Query, and modern
-               UI libraries like Tailwind CSS, Material UI, and SASS. I am experienced in
-                implementing responsive design, accessibility, and Progressive Web Applications (PWAs),
-                 ensuring my applications deliver seamless experiences across all devices.
-
-              I also specialize in backend development, building RESTful APIs 
-              with Express, handling authentication and authorization securely using JWT, 
-              and managing data efficiently with MongoDB and Mongoose. 
-              With a strong focus on unit testing using Jasmine, I ensure that my code is reliable and robust.
-
-              Beyond technical skills, I bring strong communication, problem-solving,
-               and teamwork abilities, allowing me to collaborate effectively in dynamic environments. 
-               I am always eager to learn, grow, and contribute to impactful projects that make a difference.
+              On the backend, I build secure RESTful APIs using Express, JWT authentication, and MongoDB/Mongoose.
+              I also ensure code quality with unit testing using Jasmine. Beyond coding, I bring strong communication,
+               problem-solving, and teamwork skills, and I'm always eager to learn and contribute to meaningful projects.
             </p>
           </motion.div>
 

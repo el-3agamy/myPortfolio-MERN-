@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
   };
 
   const phoneNumber = '01092901881';
-  const whatsappNumber = '01092901881';
+  const whatsappNumber = '201092901881';
 
   return (
     <>
