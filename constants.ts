@@ -57,7 +57,7 @@ export const PROJECTS = [
     description: 'Secure, scalable Todo API using Express, TypeScript, Node.js, with JWT auth, Zod validation, bcrypt, Mongoose, CORS, and RESTful structure.',
     tags: ['Express', 'TypeScript', 'Node.js', 'MongoDB', 'JWT', 'Zod'],
     image: 'https://picsum.photos/seed/tecno/800/600', 
-    demoUrl: '#',
+    demoUrl: 'https://todos-app-api.vercel.app/',
     githubUrl: 'https://github.com/el-3agamy/todos_app_api',
   },
   {
